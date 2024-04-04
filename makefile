@@ -1,6 +1,6 @@
 # Used by `image`, `push` & `deploy` targets, override as required
 IMAGE_REG ?= docker.io
-IMAGE_REPO ?= maxwell017/NETDEMO
+IMAGE_REPO ?= maxwell017/netdemo
 IMAGE_TAG ?= V1
 
 # Used by `deploy` target, sets Azure webap defaults, override as required
